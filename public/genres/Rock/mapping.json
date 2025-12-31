@@ -1,22 +1,22 @@
 
 {
-    "background": "../genres/Rock/images/rock.png",
+    "background": "public/genres/Rock/images/rock.png",
 
     "samples": [
-        "../genres/Rock/samples/ALRTNOW.wav", "../genres/Rock/samples/ALRTPHLY.wav", "../genres/Rock/samples/BMBMBP.wav",
-        "../genres/Rock/samples/CLGRDIO.wav", "../genres/Rock/samples/CMONBBY.wav", "../genres/Rock/samples/CMONCLVLND.wav",
-        "../genres/Rock/samples/CWBL.wav", "../genres/Rock/samples/CRASH.wav", "../genres/Rock/samples/DRMINTRO.wav",
-        "../genres/Rock/samples/FDBKGUIT.wav", "../genres/Rock/samples/FRONTHFLR.wav", "../genres/Rock/samples/FZGUIT.wav",
-        "../genres/Rock/samples/GTDNNY.wav", "../genres/Rock/samples/GUIT1.wav", "../genres/Rock/samples/GUIT2.wav",
-        "../genres/Rock/samples/GUIT3.wav", "../genres/Rock/samples/GUIT4.wav", "../genres/Rock/samples/GUIT5.wav",
-        "../genres/Rock/samples/GUIT6.wav", "../genres/Rock/samples/GUIT7.wav", "../genres/Rock/samples/HEYEY.wav",
-        "../genres/Rock/samples/HEY.wav", "../genres/Rock/samples/HILD.wav", "../genres/Rock/samples/HITRL.wav",
-        "../genres/Rock/samples/HOYEA.wav", "../genres/Rock/samples/NTOTHHRTLND.wav", "../genres/Rock/samples/OHWHOA.wav",
-        "../genres/Rock/samples/OOOWWW.wav", "../genres/Rock/samples/PARTYON.wav", "../genres/Rock/samples/POPRCK.wav",
-        "../genres/Rock/samples/RNGOSFL.wav", "../genres/Rock/samples/RCKALNIT.wav", "../genres/Rock/samples/RCKTHHS.wav",
-        "../genres/Rock/samples/ROCKU.wav", "../genres/Rock/samples/STNGSLKABT.wav", "../genres/Rock/samples/TMBRINE.wav",
-        "../genres/Rock/samples/TYSF.wav", "../genres/Rock/samples/TRLSOLO.wav", "../genres/Rock/samples/WHOA.wav",
-        "../genres/Rock/samples/YEA.wav", "../genres/Rock/samples/YHYHYH.wav"
+        "public/genres/Rock/samples/ALRTNOW.wav", "public/genres/Rock/samples/ALRTPHLY.wav", "public/genres/Rock/samples/BMBMBP.wav",
+        "public/genres/Rock/samples/CLGRDIO.wav", "public/genres/Rock/samples/CMONBBY.wav", "public/genres/Rock/samples/CMONCLVLND.wav",
+        "public/genres/Rock/samples/CWBL.wav", "public/genres/Rock/samples/CRASH.wav", "public/genres/Rock/samples/DRMINTRO.wav",
+        "public/genres/Rock/samples/FDBKGUIT.wav", "public/genres/Rock/samples/FRONTHFLR.wav", "public/genres/Rock/samples/FZGUIT.wav",
+        "public/genres/Rock/samples/GTDNNY.wav", "public/genres/Rock/samples/GUIT1.wav", "public/genres/Rock/samples/GUIT2.wav",
+        "public/genres/Rock/samples/GUIT3.wav", "public/genres/Rock/samples/GUIT4.wav", "public/genres/Rock/samples/GUIT5.wav",
+        "public/genres/Rock/samples/GUIT6.wav", "public/genres/Rock/samples/GUIT7.wav", "public/genres/Rock/samples/HEYEY.wav",
+        "public/genres/Rock/samples/HEY.wav", "public/genres/Rock/samples/HILD.wav", "public/genres/Rock/samples/HITRL.wav",
+        "public/genres/Rock/samples/HOYEA.wav", "public/genres/Rock/samples/NTOTHHRTLND.wav", "public/genres/Rock/samples/OHWHOA.wav",
+        "public/genres/Rock/samples/OOOWWW.wav", "public/genres/Rock/samples/PARTYON.wav", "public/genres/Rock/samples/POPRCK.wav",
+        "public/genres/Rock/samples/RNGOSFL.wav", "public/genres/Rock/samples/RCKALNIT.wav", "public/genres/Rock/samples/RCKTHHS.wav",
+        "public/genres/Rock/samples/ROCKU.wav", "public/genres/Rock/samples/STNGSLKABT.wav", "public/genres/Rock/samples/TMBRINE.wav",
+        "public/genres/Rock/samples/TYSF.wav", "public/genres/Rock/samples/TRLSOLO.wav", "public/genres/Rock/samples/WHOA.wav",
+        "public/genres/Rock/samples/YEA.wav", "public/genres/Rock/samples/YHYHYH.wav"
     ],
     "songalizerMap": [
         { "id": "POPRCK", "title": "Pop Rock" },

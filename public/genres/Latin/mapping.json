@@ -1,21 +1,21 @@
 {
-    "background": "../genres/Latin/images/latin.png",
+    "background": "public/genres/Latin/images/latin.png",
 
     "samples": [
-        "../genres/Latin/samples/BASS.wav", "../genres/Latin/samples/CRLS1.wav", "../genres/Latin/samples/CRLS2.wav",
-        "../genres/Latin/samples/CRLS3.wav", "../genres/Latin/samples/CRLS4.wav", "../genres/Latin/samples/CRLS5.wav",
-        "../genres/Latin/samples/CRLS6.wav", "../genres/Latin/samples/CRLS7.wav", "../genres/Latin/samples/CRLS8.wav",
-        "../genres/Latin/samples/CRLS9.wav", "../genres/Latin/samples/CRLSNT1.wav", "../genres/Latin/samples/CRRE1.wav",
-        "../genres/Latin/samples/CRRE2.wav", "../genres/Latin/samples/CNGASHKR.wav", "../genres/Latin/samples/CORO.wav",
-        "../genres/Latin/samples/FLUTE4.wav", "../genres/Latin/samples/FLUTE5.wav",
-        "../genres/Latin/samples/FLUTE6.wav", "../genres/Latin/samples/FLUTENT4.wav", "../genres/Latin/samples/MBORYLE.wav",
-        "../genres/Latin/samples/MNTNO2.wav", "../genres/Latin/samples/MNTNO.wav", "../genres/Latin/samples/OYMIMSCA.wav",
-        "../genres/Latin/samples/OYMIRMTO.wav", "../genres/Latin/samples/PRTOALT.wav", "../genres/Latin/samples/SAX1.wav",
-        "../genres/Latin/samples/SAX2.wav", "../genres/Latin/samples/SAX3.wav", "../genres/Latin/samples/SAXNT3.wav",
-        "../genres/Latin/samples/SHAKER.wav", "../genres/Latin/samples/STLDRUM.wav", "../genres/Latin/samples/TMBRINE.wav",
-        "../genres/Latin/samples/TRMBNT3.wav", "../genres/Latin/samples/TRMBNT4.wav", "../genres/Latin/samples/TRMBNT5.wav",
-        "../genres/Latin/samples/TRMPT1.wav", "../genres/Latin/samples/TRMPT2.wav", "../genres/Latin/samples/TRMPT3.wav",
-        "../genres/Latin/samples/TRMPTNT3.wav", "../genres/Latin/samples/VBRSLP.wav"
+        "public/genres/Latin/samples/BASS.wav", "public/genres/Latin/samples/CRLS1.wav", "public/genres/Latin/samples/CRLS2.wav",
+        "public/genres/Latin/samples/CRLS3.wav", "public/genres/Latin/samples/CRLS4.wav", "public/genres/Latin/samples/CRLS5.wav",
+        "public/genres/Latin/samples/CRLS6.wav", "public/genres/Latin/samples/CRLS7.wav", "public/genres/Latin/samples/CRLS8.wav",
+        "public/genres/Latin/samples/CRLS9.wav", "public/genres/Latin/samples/CRLSNT1.wav", "public/genres/Latin/samples/CRRE1.wav",
+        "public/genres/Latin/samples/CRRE2.wav", "public/genres/Latin/samples/CNGASHKR.wav", "public/genres/Latin/samples/CORO.wav",
+        "public/genres/Latin/samples/FLUTE4.wav", "public/genres/Latin/samples/FLUTE5.wav",
+        "public/genres/Latin/samples/FLUTE6.wav", "public/genres/Latin/samples/FLUTENT4.wav", "public/genres/Latin/samples/MBORYLE.wav",
+        "public/genres/Latin/samples/MNTNO2.wav", "public/genres/Latin/samples/MNTNO.wav", "public/genres/Latin/samples/OYMIMSCA.wav",
+        "public/genres/Latin/samples/OYMIRMTO.wav", "public/genres/Latin/samples/PRTOALT.wav", "public/genres/Latin/samples/SAX1.wav",
+        "public/genres/Latin/samples/SAX2.wav", "public/genres/Latin/samples/SAX3.wav", "public/genres/Latin/samples/SAXNT3.wav",
+        "public/genres/Latin/samples/SHAKER.wav", "public/genres/Latin/samples/STLDRUM.wav", "public/genres/Latin/samples/TMBRINE.wav",
+        "public/genres/Latin/samples/TRMBNT3.wav", "public/genres/Latin/samples/TRMBNT4.wav", "public/genres/Latin/samples/TRMBNT5.wav",
+        "public/genres/Latin/samples/TRMPT1.wav", "public/genres/Latin/samples/TRMPT2.wav", "public/genres/Latin/samples/TRMPT3.wav",
+        "public/genres/Latin/samples/TRMPTNT3.wav", "public/genres/Latin/samples/VBRSLP.wav"
     ],
     "songalizerMap": [
         { "id": "OYMIRMTO", "title": "Oye Mi Ritmo" },

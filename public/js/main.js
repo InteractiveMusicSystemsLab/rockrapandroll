@@ -75,7 +75,7 @@ async function fetchGenres() {
     return new Promise(async (resolve, reject) => {
         try {
             // fetch genre mappings from server
-            const res = await fetch('/data')
+            const res = await fetch('public/data.json')
             const genreMappings = await res.json()
 
             // cache mappings
@@ -181,7 +181,7 @@ function buildGame() {
 
     // set game board image
     const gameInterface = document.getElementById('game-board')
-    gameInterface.style.background = `url(../genres/${currentGenre}/images/${currentGenre}.png) no-repeat`
+    gameInterface.style.background = `url(public/genres/${currentGenre}/images/${currentGenre}.png) no-repeat`
     gameInterface.style.backgroundSize = '100% 100%'
     gameInterface.style.display = ''
 
@@ -199,7 +199,7 @@ function buildGame() {
 
     // setup key map overlay
     const keyImage = document.getElementById('keymap-image')
-    keyImage.src = `../genres/${currentGenre}/images/keymap.png`
+    keyImage.src = `public/genres/${currentGenre}/images/keymap.png`
     keyImage.style.display = 'none'
     keyImage.onclick = () => {
         keyImage.style.display = 'none'
@@ -214,7 +214,7 @@ function buildGame() {
     startStop.onclick = () => {
         if (!songalizer.isPlaying && songalizer.tracks.length > 0) {
             songalizer.toggle()
-            startStop.style.background = `url("../genres/${currentGenre}/images/stop.png") no-repeat`
+            startStop.style.background = `url("public/genres/${currentGenre}/images/stop.png") no-repeat`
             startStop.style.backgroundSize = '100% 100%'
         }
         else if (songalizer.isPlaying) {
@@ -411,7 +411,7 @@ class DropDown {
             this.select.appendChild(option)
         })
         this.trigger.onclick = () => {
-            this.trigger.style.background = `url(../genres/${currentGenre}/images/${type}.png) no-repeat`
+            this.trigger.style.background = `url(public/genres/${currentGenre}/images/${type}.png) no-repeat`
             this.trigger.style.backgroundSize = '100% 100%'
             this.currentSource = playSampleById({ id: this.select.value })
             this.isPlaying = true
@@ -487,7 +487,7 @@ class Songalizer {
                 imgElem.setAttribute('id', this.selectedSong.id)
                 imgElem.setAttribute('draggable', false)
                 imgElem.setAttribute('data-sample-id', id)
-                imgElem.setAttribute('src', `../genres/${currentGenre}/images/${this.selectedSong.id}.png`)
+                imgElem.setAttribute('src', `public/genres/${currentGenre}/images/${this.selectedSong.id}.png`)
                 this.slots.appendChild(imgElem)
                 const { audioBuffer } = samplesBuffer.find(x => x.id === id)
                 this.tracks.push({ id, audioBuffer })
@@ -518,7 +518,7 @@ class Songalizer {
             this.songs[i].setAttribute('data-sample-id', sample.id)
             songalizerTitleImages[i].setAttribute('data-sample-id', sample.id)
             songalizerTitleImages[i].draggable = false
-            songalizerTitleImages[i].src = `../genres/${currentGenre}/images/song_title_${i + 1}.png`
+            songalizerTitleImages[i].src = `public/genres/${currentGenre}/images/song_title_${i + 1}.png`
         })
 
         songalizerTitleImages.forEach((songImg, i) => {
@@ -532,16 +532,16 @@ class Songalizer {
                     if (this.prevIsPlaying) {
                         const id = songImg.getAttribute('data-sample-id')
                         this.previewSample = playSampleById({ id })
-                        songImg.src = `../genres/${currentGenre}/images/asong_title_${i + 1}.png`
+                        songImg.src = `public/genres/${currentGenre}/images/asong_title_${i + 1}.png`
                         this.previewSample.onended = () => {
                             this.isPlaying = false
-                            songImg.src = `../genres/${currentGenre}/images/song_title_${i + 1}.png`
+                            songImg.src = `public/genres/${currentGenre}/images/song_title_${i + 1}.png`
                         }
                     }
                     else {
                         this.prevIsPlaying = false
                         this.previewSample.stop()
-                        songImg.src = `../genres/${currentGenre}/images/song_title_${i + 1}.png`
+                        songImg.src = `public/genres/${currentGenre}/images/song_title_${i + 1}.png`
                     }
                 }
             }
@@ -549,7 +549,7 @@ class Songalizer {
             songImg.onblur = () => {
                 this.prevIsPlaying = false
                 this.previewSample.stop()
-                songImg.src = `../genres/${currentGenre}/images/song_title_${i + 1}.png`
+                songImg.src = `public/genres/${currentGenre}/images/song_title_${i + 1}.png`
             }
         })
     }
@@ -569,7 +569,7 @@ class Songalizer {
             .forEach(elem => elem.style.pointerEvents = 'auto')
         //reset slot state images here
         this.slots.querySelectorAll('img').forEach(img => {
-            img.src = `../genres/${currentGenre}/images/song_${img.src.split('_')[1]}`
+            img.src = `public/genres/${currentGenre}/images/song_${img.src.split('_')[1]}`
         })
     }
 
@@ -638,17 +638,17 @@ class Songalizer {
             const currentSong = songs[this.currentTrackIndex]
             const id = currentSong.getAttribute('id')
 
-            currentSong.src = `../genres/${currentGenre}/images/a${id}.png`
+            currentSong.src = `public/genres/${currentGenre}/images/a${id}.png`
 
             const prevSongIndex = this.currentTrackIndex - 1 < 0 ? this.tracks.length - 1 : this.currentTrackIndex - 1
             const prevSong = songs[prevSongIndex]
-            prevSong.src = `../genres/${currentGenre}/images/song_${prevSong.id.split('_')[1]}.png`
+            prevSong.src = `public/genres/${currentGenre}/images/song_${prevSong.id.split('_')[1]}.png`
         }
 
         else if (this.tracks.length === 1) {
             const currentSong = songs[this.currentTrackIndex]
             const id = currentSong.getAttribute('id')
-            currentSong.src = `../genres/${currentGenre}/images/a${id}.png`
+            currentSong.src = `public/genres/${currentGenre}/images/a${id}.png`
         }
     }
 }

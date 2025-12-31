@@ -1,19 +1,19 @@
 {
-    "background": "../genres/Africa/images/africa.png",
+    "background": "public/genres/Africa/images/africa.png",
     "samples": [
-        "../genres/Africa/samples/ALNTLNG.wav", "../genres/Africa/samples/CHANT.wav", "../genres/Africa/samples/CMACMALE.wav",
-        "../genres/Africa/samples/CMALE.wav", "../genres/Africa/samples/CMEIN.wav", "../genres/Africa/samples/CMALEAUWA.wav",
-        "../genres/Africa/samples/CMALEHWUR.wav", "../genres/Africa/samples/EVRTCHNT.wav", "../genres/Africa/samples/FLGL2.wav",
-        "../genres/Africa/samples/FLGL3.wav", "../genres/Africa/samples/FLGLTRL.wav", "../genres/Africa/samples/FLUTE1.wav",
-        "../genres/Africa/samples/FLUTE2.wav", "../genres/Africa/samples/FLUTE3.wav", "../genres/Africa/samples/FLUTE4.wav",
-        "../genres/Africa/samples/FLUTE5.wav", "../genres/Africa/samples/FLUTEFLTR.wav", "../genres/Africa/samples/FLUTENT3.wav",
-        "../genres/Africa/samples/FLUTENT4.wav", "../genres/Africa/samples/FLUTENT5.wav", "../genres/Africa/samples/HRWEGO.wav",
-        "../genres/Africa/samples/CMALE.wav", "../genres/Africa/samples/KPTHVIBE.wav", "../genres/Africa/samples/KPUPRT.wav",
-        "../genres/Africa/samples/NNINGO.wav", "../genres/Africa/samples/ODLDEHEY.wav", "../genres/Africa/samples/PARTY.wav",
-        "../genres/Africa/samples/POSITIVE.wav", "../genres/Africa/samples/RNFRSTVX.wav", "../genres/Africa/samples/RNFRST.wav",
-        "../genres/Africa/samples/SHAKER.wav", "../genres/Africa/samples/SHOFAR.wav", "../genres/Africa/samples/STLDRUM.wav",
-        "../genres/Africa/samples/TMBRINE2.wav", "../genres/Africa/samples/TMBRINE.wav", "../genres/Africa/samples/TRIANGLE.wav",
-        "../genres/Africa/samples/TRIBAL.wav", "../genres/Africa/samples/TUMBAU.wav", "../genres/Africa/samples/WNKYWNGR.wav"
+        "public/genres/Africa/samples/ALNTLNG.wav", "public/genres/Africa/samples/CHANT.wav", "public/genres/Africa/samples/CMACMALE.wav",
+        "public/genres/Africa/samples/CMALE.wav", "public/genres/Africa/samples/CMEIN.wav", "public/genres/Africa/samples/CMALEAUWA.wav",
+        "public/genres/Africa/samples/CMALEHWUR.wav", "public/genres/Africa/samples/EVRTCHNT.wav", "public/genres/Africa/samples/FLGL2.wav",
+        "public/genres/Africa/samples/FLGL3.wav", "public/genres/Africa/samples/FLGLTRL.wav", "public/genres/Africa/samples/FLUTE1.wav",
+        "public/genres/Africa/samples/FLUTE2.wav", "public/genres/Africa/samples/FLUTE3.wav", "public/genres/Africa/samples/FLUTE4.wav",
+        "public/genres/Africa/samples/FLUTE5.wav", "public/genres/Africa/samples/FLUTEFLTR.wav", "public/genres/Africa/samples/FLUTENT3.wav",
+        "public/genres/Africa/samples/FLUTENT4.wav", "public/genres/Africa/samples/FLUTENT5.wav", "public/genres/Africa/samples/HRWEGO.wav",
+        "public/genres/Africa/samples/CMALE.wav", "public/genres/Africa/samples/KPTHVIBE.wav", "public/genres/Africa/samples/KPUPRT.wav",
+        "public/genres/Africa/samples/NNINGO.wav", "public/genres/Africa/samples/ODLDEHEY.wav", "public/genres/Africa/samples/PARTY.wav",
+        "public/genres/Africa/samples/POSITIVE.wav", "public/genres/Africa/samples/RNFRSTVX.wav", "public/genres/Africa/samples/RNFRST.wav",
+        "public/genres/Africa/samples/SHAKER.wav", "public/genres/Africa/samples/SHOFAR.wav", "public/genres/Africa/samples/STLDRUM.wav",
+        "public/genres/Africa/samples/TMBRINE2.wav", "public/genres/Africa/samples/TMBRINE.wav", "public/genres/Africa/samples/TRIANGLE.wav",
+        "public/genres/Africa/samples/TRIBAL.wav", "public/genres/Africa/samples/TUMBAU.wav", "public/genres/Africa/samples/WNKYWNGR.wav"
     ],
     "songalizerMap": [
         { "id": "TRIBAL", "title": "Tribal" },

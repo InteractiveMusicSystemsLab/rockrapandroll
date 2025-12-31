@@ -2,11 +2,12 @@ const compression = require('compression')
 const express = require('express')
 const fs = require('fs')
 
-const port = 8080
+const port = process.env.PORT || 8080
 const app = express()
 
 
 app.use(compression())
+app.use('/public', express.static('public'))
 app.use(express.static('public'))
 
 

@@ -1,22 +1,22 @@
 
 {
-    "background": "../genres/Soulful/images/soulful.png",
+    "background": "public/genres/Soulful/images/soulful.png",
     "samples": [
-        "../genres/Soulful/samples/BBSTRY.wav", "../genres/Soulful/samples/Come on.wav",
-        "../genres/Soulful/samples/FNKBT.wav", "../genres/Soulful/samples/FNKYGUIT.wav", "../genres/Soulful/samples/FNKYVCL.wav",
-        "../genres/Soulful/samples/FZGUIT.wav", "../genres/Soulful/samples/GDGOD.wav", "../genres/Soulful/samples/GUIT2.wav",
-        "../genres/Soulful/samples/GUIT3.wav", "../genres/Soulful/samples/GUIT4.wav", "../genres/Soulful/samples/GUIT5.wav",
-        "../genres/Soulful/samples/HAHAHA.wav", "../genres/Soulful/samples/HEHHEHHEH.wav", "../genres/Soulful/samples/HIPHP.wav",
-        "../genres/Soulful/samples/HIPSNR.wav", "../genres/Soulful/samples/HITIT.wav", "../genres/Soulful/samples/HOPHP.wav",
-        "../genres/Soulful/samples/HUH.wav", "../genres/Soulful/samples/ILVU.wav", "../genres/Soulful/samples/JAMON.wav",
-        "../genres/Soulful/samples/MNBT.wav", "../genres/Soulful/samples/MMYAYA.wav", "../genres/Soulful/samples/NWJCKCNTRY.wav",
-        "../genres/Soulful/samples/NWJCKSWNG.wav", "../genres/Soulful/samples/OBBYBBY.wav", "../genres/Soulful/samples/ORCHT.wav",
-        "../genres/Soulful/samples/RAP.wav", "../genres/Soulful/samples/SAX1.wav", "../genres/Soulful/samples/SAX2.wav",
-        "../genres/Soulful/samples/SCRNITCH.wav", "../genres/Soulful/samples/SCRCDN.wav", "../genres/Soulful/samples/SCRCSNR2.wav",
-        "../genres/Soulful/samples/SCRSNR.wav", "../genres/Soulful/samples/SCRCUP.wav", "../genres/Soulful/samples/TalkBox Guitar.wav",
-        "../genres/Soulful/samples/TOTHCRCH.wav", "../genres/Soulful/samples/WRDTOTHMTHR.wav", "../genres/Soulful/samples/WHOO-OO!.wav",
-        "../genres/Soulful/samples/WHOOSH.wav", "../genres/Soulful/samples/WRDUP.wav", "../genres/Soulful/samples/WRPITUP.wav",
-        "../genres/Soulful/samples/YAYAYA.wav", "../genres/Soulful/samples/UMKEME.wav"
+        "public/genres/Soulful/samples/BBSTRY.wav", "public/genres/Soulful/samples/Come on.wav",
+        "public/genres/Soulful/samples/FNKBT.wav", "public/genres/Soulful/samples/FNKYGUIT.wav", "public/genres/Soulful/samples/FNKYVCL.wav",
+        "public/genres/Soulful/samples/FZGUIT.wav", "public/genres/Soulful/samples/GDGOD.wav", "public/genres/Soulful/samples/GUIT2.wav",
+        "public/genres/Soulful/samples/GUIT3.wav", "public/genres/Soulful/samples/GUIT4.wav", "public/genres/Soulful/samples/GUIT5.wav",
+        "public/genres/Soulful/samples/HAHAHA.wav", "public/genres/Soulful/samples/HEHHEHHEH.wav", "public/genres/Soulful/samples/HIPHP.wav",
+        "public/genres/Soulful/samples/HIPSNR.wav", "public/genres/Soulful/samples/HITIT.wav", "public/genres/Soulful/samples/HOPHP.wav",
+        "public/genres/Soulful/samples/HUH.wav", "public/genres/Soulful/samples/ILVU.wav", "public/genres/Soulful/samples/JAMON.wav",
+        "public/genres/Soulful/samples/MNBT.wav", "public/genres/Soulful/samples/MMYAYA.wav", "public/genres/Soulful/samples/NWJCKCNTRY.wav",
+        "public/genres/Soulful/samples/NWJCKSWNG.wav", "public/genres/Soulful/samples/OBBYBBY.wav", "public/genres/Soulful/samples/ORCHT.wav",
+        "public/genres/Soulful/samples/RAP.wav", "public/genres/Soulful/samples/SAX1.wav", "public/genres/Soulful/samples/SAX2.wav",
+        "public/genres/Soulful/samples/SCRNITCH.wav", "public/genres/Soulful/samples/SCRCDN.wav", "public/genres/Soulful/samples/SCRCSNR2.wav",
+        "public/genres/Soulful/samples/SCRSNR.wav", "public/genres/Soulful/samples/SCRCUP.wav", "public/genres/Soulful/samples/TalkBox Guitar.wav",
+        "public/genres/Soulful/samples/TOTHCRCH.wav", "public/genres/Soulful/samples/WRDTOTHMTHR.wav", "public/genres/Soulful/samples/WHOO-OO!.wav",
+        "public/genres/Soulful/samples/WHOOSH.wav", "public/genres/Soulful/samples/WRDUP.wav", "public/genres/Soulful/samples/WRPITUP.wav",
+        "public/genres/Soulful/samples/YAYAYA.wav", "public/genres/Soulful/samples/UMKEME.wav"
     ],
     "songalizerMap": [
         { "id": "HIPHP", "title": "Hip Hop" },

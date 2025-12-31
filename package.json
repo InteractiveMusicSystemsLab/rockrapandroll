@@ -6,6 +6,7 @@
     "fs": "^0.0.1-security"
   },
   "scripts": {
-    "start": "node server.js"
+    "start": "node server.js",
+    "build:data": "node scripts/build-data.js"
   }
 }
