@@ -4,15 +4,9 @@ This is a fan-made, unofficial port of the now-discontinued Rock Rap N' Roll, a 
 
 This is an independent recreation provided for educational purposes. All original artwork and sounds remain the property of their respective owners. Contact <gr-ratlab@wpi.edu> for more information. Developed by [Jake Pelrah](https://github.com/JakePelrah) in [the RAT Lab](https://theratlab.org).
 
-Starting the game:
+Starting the app:
 
 1. npm install
 2. npm start
 3. From Chrome, navigate to http://localhost:8080
 
-Deploying to GitHub Pages:
-
-1. Run `npm run build:data` if you change anything under `public/genres` so `public/data.json` stays fresh.
-2. Commit and push the changes to `main`.
-3. In GitHub, open Settings → Pages and set Source to "Deploy from a branch", Branch to `main`, and Folder to `/` (root).
-4. After Pages finishes building, your site will be available at `https://<your-username>.github.io/rockrapandroll/` (or your custom domain).
