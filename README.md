@@ -10,3 +10,9 @@ Starting the app:
 2. npm start
 3. From Chrome, navigate to http://localhost:8080
 
+
+## Contributing
+
+Navigate to the [CONTRIBUTING.md](./CONTRIBUTING.md) file for guidelines on how to contribute to the project.
+
+Music, audio, and other creative works produced using Rock Rap 'N Roll are not considered Contributions and remain the sole property of their creators.
